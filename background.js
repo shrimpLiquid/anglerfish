@@ -1,4 +1,4 @@
-// background.js
+/*// background.js
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'toggleFeature') {
@@ -22,4 +22,4 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       }
     
   }
-});
+});*/

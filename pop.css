@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(8, 5, 138);
+  color: rgb(255, 155, 225);
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: rgb(255, 240, 251);
+    color: rgb(8, 5, 138);
+  }
+}
