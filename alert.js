@@ -7158,7 +7158,7 @@ async function performReplacementOnSelection() {
 
             // 3. Display the results
             // Display the original selected text
-            document.getElementById('selectedTextDisplay').textContent = selectedText; 
+            document.getElementById('selectedTextDisplay').textContent = ""; 
             // Display the result of the replacement
             document.getElementById('trasn').textContent = replacedText; 
 
