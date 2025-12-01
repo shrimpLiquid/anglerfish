@@ -1,7 +1,9 @@
 // background.js
+
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'toggleFeature') {
     const isEnabled = request.enabled;
+    
     // Store the global state for the extension
     chrome.storage.local.set({ 'featureEnabled': isEnabled });
 

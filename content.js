@@ -6357,7 +6357,7 @@ var default_replacements = {
     "summons": "beswearings",
     "sunflower": "sunbloom",
     "suns dwelling": "The sky",
-    "super": "adj over",
+    "super": "outstandingly",
     "supercalifragilisticexpialidocious": "overfairnessbrokenliatoneliteachworthy",
     "supercillious": "overweening",
     "supercontinent": "overworlddeal",

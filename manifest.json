@@ -4,10 +4,10 @@
       "default_popup": "popup.html"
    },
    "content_scripts": [ {
-      "js": [ "content.js" ],
+      "js": [ "content.js" ,"alert.js"],
       "matches": [ "*://*/*" ]
    } ],
-   "description": "",
+   "description": "goob",
    "icons": {
       "128": "128.png",
       "16": "16.png"
