@@ -6798,7 +6798,7 @@ var default_changes = {
     "unnecessary": "needless",
     "unnerve": "unsettle",
     "unoccupied ": "empty",
-    "update": "bywork cf Du bijwerken",
+    "update": "newshape",
     "ups": "mains backup",
     "uninterruptible power supply": "mains backup",
     "unpleasant": "bad",
