@@ -6798,7 +6798,7 @@
     "needless": "unnecessary",
     "unsettle": "unnerve",
     "empty": "unoccupied ",
-    "bywork cf Du bijwerken": "update",
+    "newshape": "update",
     "mains backup": "ups",
     "mains backup": "uninterruptible power supply",
     "bad": "unpleasant",
