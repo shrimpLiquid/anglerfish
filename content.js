@@ -1,4 +1,4 @@
-var default_replacements = {
+var default_changes = {
   "a cappella": "mouthglee",
     "a cappellas": "mouthglees",
     "a-la-carte": "by-the-list",
@@ -7099,7 +7099,7 @@ var default_replacements = {
   
   
   };
-const replacements = Object.entries(default_replacements);
+const changes = Object.entries(default_changes);
 
 function buildRegexBatch(entries) {
   return new RegExp(
@@ -7112,8 +7112,8 @@ function buildRegexBatch(entries) {
 
 function replaceTextNode(node) {
   let text = node.nodeValue;
-  for (let i = 0; i < replacements.length; i += 500) { // batches of 500 keys
-    const batch = replacements.slice(i, i + 500);
+  for (let i = 0; i < changes.length; i += 500) { // batches of 500 keys
+    const batch = changes.slice(i, i + 500);
     const regex = buildRegexBatch(batch);
     text = text.replace(regex, match => {
       const rep = batch.find(([key]) => key.toLowerCase() === match.toLowerCase())[1];

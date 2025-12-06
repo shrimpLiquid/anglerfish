@@ -13,7 +13,7 @@
       "16": "16.png"
    },
    "permissions": ["scripting", "activeTab"],
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5jCiEP9Jd0/N3LpU66qUITk0/Leasaz8G5wJVZZkRXs+QwS6bD1Z7gMPqk6/itAxtaLNBE0J1i5e2hvYZDTqNaL5+dsllqgh/Nw2RHJUmMzdJDsT3gFMglMQdqm7NaIXtehNuvFDQHmV89VPrELlF2MLMC3gZbOUUXRLbk9KOB9PD7bzZvD5tASfZ9DSBSGlAiIVHKynxXQc2Bge1LBGPOUEApL/zw8OQaiJ8iI5R25K7rKVDvdOlD/uH7mp3uEr136MGfv1in50uUzOqX6L6OXyl1fh0moet8d1LOlQTeZV5PviIUDFyDCw2K2jQyiY9uc9LJz5RQOkV+tA0ZYECwIDAQAB",
+   
    "manifest_version": 3,
    "name": "anglerfish",
    "version": "1.0"

@@ -1,4 +1,4 @@
-    var default_replacements = {
+    var default_changes = {
   "mouthglee": "a cappella",
     "mouthglees": "a cappellas",
     "by-the-list": "a-la-carte",
@@ -7099,8 +7099,8 @@
   
   
   };
-    const replacements = Object.entries(default_replacements);
-// NOTE: 'default_replacements' must be defined globally or imported elsewhere for this code to run.
+    const changes = Object.entries(default_changes);
+// NOTE: 'default_changes' must be defined globally or imported elsewhere for this code to run.
 
 function buildRegexBatch(entries) {
     return new RegExp(
@@ -7136,8 +7136,8 @@ async function performReplacementOnSelection() {
             let replacedText = selectedText; // Start replacement process with the selected text
 
             // 2. Perform batched replacement
-            for (let i = 0; i < replacements.length; i += 500) { // batches of 500 keys
-                const batch = replacements.slice(i, i + 500);
+            for (let i = 0; i < changes.length; i += 500) { // batches of 500 keys
+                const batch = changes.slice(i, i + 500);
                 const regex = buildRegexBatch(batch);
                 
                 // Use the string.replace result to update replacedText
