@@ -8905,7 +8905,7 @@ async function performReplacementOnSelection() {
                     if (replacementEntry) {
                         const rep = replacementEntry[1];
                         // Preserve the case of the first letter if the match was capitalized
-                        return match[0] === match[0].toUpperCase()
+                        return match[0] === match[0]?.toUpperCase()
                             ? rep.charAt(0).toUpperCase() + rep.slice(1)
                             : rep;
                     }
