@@ -8853,6 +8853,7 @@ var default_reps = {
 "citizen" : "burger",
 "neurological" : "brainish",
 "being used on" : "being set on",
+"tendinitis" : "sinewsickness", 
   };
 const reps = Object.entries(default_reps);
 
