@@ -8853,6 +8853,7 @@ var default_changes = {
 "burger" : "citizen",
 "brainish" : "neurological",
 "being set on" : "being used on",
+"sinewsickness" : "tendinitis"
   
   
   };
