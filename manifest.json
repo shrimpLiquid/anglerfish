@@ -3,10 +3,15 @@
       "default_icon": "16.png",
       "default_popup": "popup.html"
    },
+  "background": {
+    "service_worker": "default_reps.js",
+    "type": "module"
+  },
    "content_scripts": [ {
-      "js": [ "content.js" ,"alert.js"],
-      "matches": [ "*://*/*" ]
-   } ],
+   "matches": [ "*://*/*" ],
+   "js": ["default_reps.js", "alert.js", "content.js"]
+} ],
+
    "description": "English to Anglish",
    "icons": {
       "128": "128.png",
