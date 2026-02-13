@@ -1,4 +1,3 @@
-//import { default_reps } from "./default_reps.js";
 const reps = Object.entries(default_reps);
 
 function buildRegexBatch(entries) {
