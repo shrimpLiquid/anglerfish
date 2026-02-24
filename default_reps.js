@@ -1,4 +1,4 @@
-const default_reps = {
+var default_reps = {
 "abbacy" : "abbodship",
 "degenerate" : "abrothen",
 "degeneracy" : "abrothenness",
@@ -4018,7 +4018,7 @@ const default_reps = {
 "desecrate" : "unhallow",
 "desk" : "writboard",
 "desert" : "dryland",
-"deserter" : "heraflighter OE hereflma",
+"deserter" : "heraflighter",
 "deserving" : "meedful",
 "design" : "layout",
 "designate" : "betoken",
@@ -4030,7 +4030,7 @@ const default_reps = {
 "desolation" : "aweestness",
 "despair" : "hopelessness",
 "desperate" : "hopeless",
-"despondency" : "atsprungness OE tsprungnes",
+"despondency" : "atsprungness",
 "despise" : "hate",
 "despite" : "although",
 "dessert" : "afters",
@@ -4039,7 +4039,7 @@ const default_reps = {
 "destiny" : "lot",
 "destroy" : "fordo",
 "destruction" : "breakdown",
-"detail" : "meal OE ml",
+"detail" : "meal",
 "detain" : "hold",
 "detective" : "sleuth",
 "deteriorate" : "worsen",
@@ -5707,10 +5707,10 @@ const default_reps = {
 "isolation" : "loneliness",
 "isotone" : "evenghtell evenstell  firstbit",
 "isotope" : "evenstell isoeven  topestell",
-"issue" : "inting OE intinga",
+"issue" : "inting",
 "italic font" : "Slantwrite",
 "item" : "thing",
-"itinerary" : "forebook OE frbcforbc pl forebeek OE frbcforbc",
+"itinerary" : "forebook",
 "ivory" : "tusk",
 "ivory Coast" : "Windward Shore",
 "ize" : "be",
@@ -6852,7 +6852,7 @@ const default_reps = {
 "perform" : "do forth",
 "perfume" : "duft",
 "perfunctory" : "halfhearted",
-"peril" : "freck OE frcen",
+"peril" : "freck",
 "period time" : "while",
 "period punctuation" : "fullstop",
 "perish" : "dreeze",
@@ -8718,7 +8718,7 @@ const default_reps = {
 "vicinity" : "nearness",
 "vicious" : "wicked",
 "vicissitude" : "ups and downs",
-"victim" : "tiber OE tber",
+"victim" : "tiber",
 "victor" : "winner",
 "victorious" : "winning",
 "video" : "film",
@@ -8855,4 +8855,14 @@ const default_reps = {
 "being used on" : "being set on",
 "tendinitis" : "sinewsickness", 
   };
-  
+var plurals= {
+
+}
+for (var key in default_reps) {
+    if (default_reps.hasOwnProperty(key)) {
+
+       default_reps[key+"s"] = default_reps[key]+"s"
+    }
+}
+
+//console.log(default_reps)
