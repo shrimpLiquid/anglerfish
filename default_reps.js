@@ -28,7 +28,6 @@ var default_reps = {
 "remorse" : "againbite",
 "past" : "agone",
 "related" : "akin",
-"though" : "albeit",
 "metropolis" : "alderborough",
 "omniscient" : "alknowing",
 "omniscience" : "alknowingness",
@@ -8864,5 +8863,6 @@ for (var key in default_reps) {
        default_reps[key+"s"] = default_reps[key]+"s"
     }
 }
+
 
 //console.log(default_reps)
