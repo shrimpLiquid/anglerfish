@@ -328,6 +328,7 @@ var default_reps = {
 "diabolical" : "devilish",
 "demonology" : "devillore",
 "asafoetida" : "devilsdung",
+"bullet" : "slug",
 "slug" : "dewsnail",
 "pelican" : "divedopper",
 "factotum" : "doall",
@@ -2923,7 +2924,6 @@ var default_reps = {
 "buffer" : "ward",
 "buffet" : "foodboard",
 "buffoon" : "clown",
-"bullet" : "slug",
 "bulletin" : "newtidings",
 "bullion" : "ingots",
 "bulldozer" : "mickle shovel",
@@ -8866,3 +8866,4 @@ for (var key in default_reps) {
 
 
 //console.log(default_reps)
+
