@@ -4378,7 +4378,7 @@ var default_reps = {
 "emergency" : "need",
 "emigrant" : "outgoer",
 "eminence" : "height",
-"emissary" : "sentman Ice sendiman",
+"emissary" : "sentman",
 "emit" : "spout",
 "emotion" : "stirring",
 "emotional" : "stirring",
