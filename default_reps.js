@@ -4620,7 +4620,7 @@ var default_reps = {
 "exclude" : "outshut",
 "excommunicate" : "amanse",
 "excoriate" : "chide",
-"excrement" : "shit",
+"excrement" : "stool",
 "excursion" : "outing",
 "excuse" : "forgive",
 "exdirectory" : "unlisted",
@@ -4741,7 +4741,7 @@ var default_reps = {
 "fad" : "hit",
 "faddish" : "agogo",
 "fade" : "dwindle",
-"feces" : "shit",
+"feces" : "stool",
 "faggot" : "stickbind",
 "faience" : "tin-glazed earthenware",
 "fail" : "fizzle",
@@ -8866,4 +8866,5 @@ for (var key in default_reps) {
 
 
 //console.log(default_reps)
+
 
