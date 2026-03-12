@@ -466,7 +466,6 @@ var default_reps = {
 "peerless" : "fellowless",
 "boggy" : "fenny",
 "mold" : "fenow",
-"life" : "fere",
 "archaeology" : "fernlore",
 "filicology" : "fernlore",
 "fresh" : "fersh",
@@ -8866,5 +8865,6 @@ for (var key in default_reps) {
 
 
 //console.log(default_reps)
+
 
 
