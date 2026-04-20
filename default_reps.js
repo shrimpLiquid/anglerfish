@@ -1567,7 +1567,6 @@ var default_reps = {
 "triangular" : "threesided",
 "trilobite" : "thrilap",
 "trefoil" : "thrileaf",
-"May" : "Thrimilk",
 "triplet" : "thrin",
 "trilingual" : "thritongued",
 "uvula" : "throattongue",
