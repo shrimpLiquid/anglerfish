@@ -6129,7 +6129,6 @@ var default_reps = {
 "mature" : "grown",
 "maxilla" : "jawbone",
 "maximum" : "uttermost",
-"May" : "Threemilkmonth",
 "mayhem" : "crippling",
 "mayonnaise" : "yolkdip",
 "mayor" : "boroughreeve",
