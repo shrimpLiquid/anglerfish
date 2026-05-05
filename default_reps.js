@@ -6328,10 +6328,6 @@ var default_reps = {
 "move" : "shift",
 "movement" : "shift",
 "movie" : "film",
-"mr" : "Lord",
-"mister" : "Lord",
-"sir" : "Lord",
-"mrs" : "Lady",
 "mucus" : "slime",
 "muffle" : "shroud",
 "multiculturalism" : "felemenning",
@@ -8851,13 +8847,22 @@ var default_reps = {
 "being used on" : "being set on",
 "tendinitis" : "sinewsickness", 
   };
-var plurals= {
-
+var freaks= {//like the song
+"mr" : "Lord",
+"mister" : "Lord",
+"sir" : "Lord",
+"mrs" : "Lady",
 }
 for (var key in default_reps) {
     if (default_reps.hasOwnProperty(key)) {
 
        default_reps[key+"s"] = default_reps[key]+"s"
+    }
+}
+for (var gey in freaks) {
+    if (freaks.hasOwnProperty(gey)) {
+
+       default_reps[freaks[gey]] = gey
     }
 }
 
