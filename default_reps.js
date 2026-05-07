@@ -24,7 +24,6 @@ var default_reps = {
 "subsequently" : "afterhand",
 "July" : "Afterlithe",
 "afternoon" : "aftermidday",
-"January" : "Afteryule",
 "remorse" : "againbite",
 "past" : "agone",
 "related" : "akin",
@@ -155,7 +154,6 @@ var default_reps = {
 "phlebotomist" : "bloodletter",
 "vampire" : "bloodsucker",
 "cauliflower" : "bloomcole",
-"November" : "Blootmonth",
 "flowery" : "blossomy",
 "embarrassing" : "blushworthy",
 "both" : "bo",
@@ -690,7 +688,6 @@ var default_reps = {
 "venison" : "hartmeat",
 "duchess" : "hartowen",
 "cicada" : "harvestfly",
-"September" : "Harvestmonth",
 "armour" : "harweed",
 "crosier" : "hatch",
 "detestable" : "hatel",
@@ -1214,7 +1211,6 @@ var default_reps = {
 "terracotta" : "redware",
 "robbery" : "reef",
 "triumph" : "reeth",
-"March" : "Reethmonth",
 "bailiffship" : "reeveship",
 "joke" : "rib",
 "magnate" : "richer",
@@ -1567,7 +1563,6 @@ var default_reps = {
 "triangular" : "threesided",
 "trilobite" : "thrilap",
 "trefoil" : "thrileaf",
-"May" : "Thrimilk",
 "triplet" : "thrin",
 "trilingual" : "thritongued",
 "uvula" : "throattongue",
@@ -4805,7 +4800,6 @@ var default_reps = {
 "feast" : "feed",
 "feat" : "deed",
 "feature" : "shape",
-"February" : "Mudmonth",
 "feckless" : "bootless",
 "federal" : "kernelish",
 "federation" : "gathertang",
@@ -5756,9 +5750,7 @@ var default_reps = {
 "juice" : "sap",
 "juice up" : "fire",
 "jukebox" : "songbox",
-"July" : "Meadowmonth",
 "jump" : "leap",
-"June" : "Midsummermonth",
 "jungle" : "whirlpool",
 "junior" : "younger",
 "jurisdiction" : "law",
@@ -6129,7 +6121,6 @@ var default_reps = {
 "mature" : "grown",
 "maxilla" : "jawbone",
 "maximum" : "uttermost",
-"May" : "Threemilkmonth",
 "mayhem" : "crippling",
 "mayonnaise" : "yolkdip",
 "mayor" : "boroughreeve",
@@ -6330,10 +6321,6 @@ var default_reps = {
 "move" : "shift",
 "movement" : "shift",
 "movie" : "film",
-"mr" : "Lord",
-"mister" : "Lord",
-"sir" : "Lord",
-"mrs" : "Lady",
 "mucus" : "slime",
 "muffle" : "shroud",
 "multiculturalism" : "felemenning",
@@ -7966,7 +7953,6 @@ var default_reps = {
 "sentimental" : "mawkish",
 "separate" : "sundry",
 "separation" : "splitting",
-"September" : "Holymonth",
 "septennium" : "yearseven",
 "Septuagesima" : "Berueingtide",
 "sepulchre" : "moldstow",
@@ -8853,13 +8839,22 @@ var default_reps = {
 "being used on" : "being set on",
 "tendinitis" : "sinewsickness", 
   };
-var plurals= {
-
+var freaks= {//like the song
+"mr" : "Lord",
+"mister" : "Lord",
+"sir" : "Lord",
+"mrs" : "Lady",
 }
 for (var key in default_reps) {
     if (default_reps.hasOwnProperty(key)) {
 
        default_reps[key+"s"] = default_reps[key]+"s"
+    }
+}
+for (var gey in freaks) {
+    if (freaks.hasOwnProperty(gey)) {
+
+       default_reps[freaks[gey]] = gey
     }
 }
 
