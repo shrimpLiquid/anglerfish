@@ -8837,7 +8837,8 @@ var default_reps = {
 "citizen" : "burger",
 "neurological" : "brainish",
 "being used on" : "being set on",
-"tendinitis" : "sinewsickness", 
+"tendinitis" : "sinewsickness",
+  "theater" : "showroom"
   };
 var freaks= {//like the song
 "mr" : "Lord",
