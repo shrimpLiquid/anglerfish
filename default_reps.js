@@ -1428,6 +1428,7 @@ var default_reps = {
 "arachnophobia" : "spiderfear",
 "fat" : "spind",
 "spinneret" : "spinner",
+"telescope" : "spirglass",
 "bacon" : "spitch",
 "saliva" : "spittle",
 "vernal" : "springly",
@@ -1800,6 +1801,7 @@ var default_reps = {
 "hibernal" : "winterly",
 "hibernation" : "wintersleep",
 "historiographer" : "wirdwriter",
+"telegram" : "wirespel",
 "-ologist" : "wit",
 "torture-house" : "witehouse",
 "pregnant" : "with child",
@@ -8256,6 +8258,7 @@ var default_reps = {
 "teleporter" : "farferrier",
 "telescope" : "spyglass",
 "telework" : "farwork",
+"television" : "show screen",
 "televisual" : "sightcast",
 "temper" : "moodnanneal",
 "temperament" : "lund",
@@ -8834,8 +8837,7 @@ var default_reps = {
 "citizen" : "burger",
 "neurological" : "brainish",
 "being used on" : "being set on",
-"tendinitis" : "sinewsickness",
-  "theater" : "showroom"
+"tendinitis" : "sinewsickness", 
   };
 var freaks= {//like the song
 "mr" : "Lord",

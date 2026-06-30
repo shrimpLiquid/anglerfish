@@ -1,8 +1,6 @@
-# English to Anglish
+# NameFix
 
-a translator for english to anglish based on https://bark-fa.github.io/Anglish-Translator/.
-it just does basic replacements and doesn't work all of the time but its still fun.
+Replaces name to match specified content
 
--also it can poorly untranslate selected text!
-<br>
--Now with expanded dictionary!
+Inspiration from Bryce Bostwick and his FixTheGulf extension.
+[Bryce Bostwick's Extension](https://chromewebstore.google.com/detail/restore-the-gulf-of-mexic/lonhbfacjemgflooloncigacbgmdgfmo?authuser=0&hl=en)

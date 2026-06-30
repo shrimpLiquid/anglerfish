@@ -1,25 +1,23 @@
 {
-   "action": {
-      "default_icon": "16.png",
-      "default_popup": "popup.html"
-   },
-  "background": {
-    "service_worker": "default_reps.js",
-    "type": "module"
-  },
-   "content_scripts": [ {
-   "matches": [ "*://*/*" ],
-   "js": ["default_reps.js", "alert.js", "content.js"]
-} ],
-
-   "description": "English to Anglish",
+  "description": "English to Anglish",
    "icons": {
       "128": "128.png",
       "16": "16.png"
    },
-   "permissions": ["scripting", "activeTab"],
    
    "manifest_version": 3,
    "name": "anglerfish",
-   "version": "6.0"
+   "version": "7.0",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "128.png"
+  },
+  "content_scripts": [
+  {
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["default_reps.js","main.js"],
+    "run_at": "document_start"
+  }
+]
 }
