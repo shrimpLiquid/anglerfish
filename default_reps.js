@@ -5351,7 +5351,7 @@ var default_reps = {
 "illuminate" : "brighten",
 "illusion" : "daydream",
 "illustrious" : "thrymfast",
-"image" : "look alike",
+"image" : "likeness",
 "imagination" : "minds eye",
 "imaginative" : "thoughtful",
 "imagine" : "fathom",
